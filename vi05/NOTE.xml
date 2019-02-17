@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Z:\DBJGBY~H\bd\vi05\1.xml"?>
+<mesNotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Z:\DBJGBY~H\bd\vi05\note.xsd">
+	<etudiant idetud="E2">
+		<nom>Zetofrais</nom>
+		<prenom>Melanie</prenom>
+		<dateNaissance>
+			<jour>03</jour>
+			<mois>11</mois>
+			<annee>1982</annee>
+		</dateNaissance>
+		<resultat>
+			<partiel>UML</partiel>
+			<note>6</note>
+		</resultat>
+		<resultat>
+			<partiel>XML</partiel>
+			<note>4</note>
+		</resultat>
+	</etudiant>
+	<etudiant idetud="E1">
+		<nom>Zeblouse</nom>
+		<prenom>Agathe</prenom>
+		<dateNaissance>
+			<jour>18</jour>
+			<mois>02</mois>
+			<annee>1983</annee>
+		</dateNaissance>
+		<resultat>
+			<partiel>UML</partiel>
+			<note>8</note>
+		</resultat>
+		<resultat>
+			<partiel>XML</partiel>
+			<note>9</note>
+		</resultat>
+	</etudiant>
+	<etudiant idetud="E4">
+		<nom>Bricot</nom>
+		<prenom>Juda</prenom>
+		<dateNaissance>
+			<jour>15</jour>
+			<mois>03</mois>
+			<annee>1982</annee>
+		</dateNaissance>
+		<resultat>
+			<partiel>UML</partiel>
+			<note>10</note>
+		</resultat>
+		<resultat>
+			<partiel>XML</partiel>
+			<note>1</note>
+		</resultat>
+		<resultat>
+			<partiel>Java</partiel>
+			<note>7</note>
+		</resultat>
+	</etudiant>
+	<etudiant idetud="E3">
+		<nom>Ouzy</nom>
+		<prenom>Jacques</prenom>
+		<dateNaissance>
+			<jour>01</jour>
+			<mois>12</mois>
+			<annee>1977</annee>
+		</dateNaissance>
+		<resultat>
+			<partiel>UML</partiel>
+			<note>11</note>
+		</resultat>
+	</etudiant>
+	<etudiant idetud="E5">
+		<nom>Aimelle</nom>
+		<prenom>X</prenom>
+		<dateNaissance>
+			<jour>11</jour>
+			<mois>12</mois>
+			<annee>1992</annee>
+		</dateNaissance>
+		<resultat>
+			<partiel>XML</partiel>
+			<note>1</note>
+		</resultat>
+	</etudiant>
+</mesNotes>

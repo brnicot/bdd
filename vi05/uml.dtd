@@ -1,0 +1,5 @@
+<!ELEMENT resultatsUML (eleve*)>
+<!ELEMENT eleve (nom,prenom,note)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT note (#PCDATA)>

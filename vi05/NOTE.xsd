@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="mesNotes">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="etudiant" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nom" type="xs:string"/>
+							<xs:element name="prenom" type="xs:string"/>
+							<xs:element name="dateNaissance">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="jour" type="xs:integer"/>
+										<xs:element name="mois" type="xs:integer"/>
+										<xs:element name="annee" type="xs:integer"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="resultat" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="partiel" type="xs:string"/>
+										<xs:element name="note" type="xs:integer"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="idetud" type="xs:token" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="cleEtudiant">
+			<xs:selector xpath="etudiant"/>
+			<xs:field xpath="@idetud"/>
+		</xs:key>
+	</xs:element>
+</xs:schema>
